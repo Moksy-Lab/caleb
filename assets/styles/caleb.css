@@ -80,12 +80,15 @@ background-color: var(--primary-Color);
 .candella3wq12a3 .fdb-block {
     padding: 0px 0;
 }
+.candella3wq12a3 .lead{
+ font-size: var(--paragraph);
+}
 /* felicityfr3poxt3ngm */
 .felicityfr3poxt3ngm strong {
     font-weight: var(--button-font-weight) !important;
 }
 .felicityfr3poxt3ngm h3 {
-    font-size: var(--heading-two);
+    font-size: var(--paragraph);
     margin-top: 15px;
 }
 .felicityfr3poxt3ngm .btn-primary,
