@@ -1,0 +1,399 @@
+/*****TypographyCSS*****/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+scroll-behavior: smooth; }
+
+@-ms-viewport {
+  width: device-width; }
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+ }
+
+textarea {
+  overflow: auto;
+  resize: vertical; }
+
+h1, .h1 {
+  font-size: 2.75rem; }
+
+h2, .h2 {
+  font-size: 2rem; }
+
+h3, .h3 {
+  font-size: 1.125rem; }
+
+h4, .h4 {
+  font-size: 1rem; }
+
+h5, .h5 {
+  font-size: 0.875rem; }
+
+h6, .h6 {
+  font-size: 0.813rem; }
+
+.lead {
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+.display-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+/*****TypographyCSS*****/
+
+/*****howard*****/
+/* #howard(headerhdm8ad340b3) #css starts  */
+.headerhdm8ad340b3 .logo{
+    max-height: 30px
+}
+.headerhdm8ad340b3 .btn-primary{
+    font-weight: bold;
+    background-color: sandybrown;
+    border: none
+}
+.headerhdm8ad340b3 .navbar-open-icon {
+    display: inline
+}
+.headerhdm8ad340b3 .navbar-close-icon {
+    display: none
+}
+.headerhdm8ad340b3 .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+.headerhdm8ad340b3 .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+/* #howard(headerhdm8ad340b3) #css ends  */
+/*****howard*****/
+
+/*****agni*****/
+/* #agni(cded716dce36a6e8) #css starts  */
+.aboutcded716dce36a6e8 .DescriptionHeading {
+    font-size: 50px
+}
+
+.aboutcded716dce36a6e8 .DescriptionPara {
+    color: #808080;
+    font-size: 18px
+}
+
+.aboutcded716dce36a6e8 .badge{
+    color: #FF705E;
+    background-color: #F5F0F7
+}
+.aboutcded716dce36a6e8 .searchBtn{
+    background-color:#FF705E ;
+    border-radius: 15px;
+    color: white
+}
+/* #agni(cded716dce36a6e8) #css ends  */
+/*****agni*****/
+
+/*****felicity*****/
+/* #felicity(felicityfr3poxt3ngm) #css starts */
+.felicityfr3poxt3ngm .fdb-block img.fdb-icon {
+    width: auto;
+    width: 3.75rem
+  }
+/* #felicity(felicityfr3poxt3ngm) #css starts */
+/*****felicity*****/
+
+/*****pony*****/
+/* #pony(fd232222df02a491) #css starts  */
+.productsfd232222df02a491 .card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center
+}
+
+.productsfd232222df02a491 .card-product .img-wrap img {
+    height: 200px;
+    width: 200px
+}
+
+.productsfd232222df02a491 .title {
+    color: #33CCCC
+}
+
+.productsfd232222df02a491 .card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px
+}
+
+.productsfd232222df02a491 .buttons {
+    text-align: center;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #33CCCC;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn:hover {
+    color: #fff;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 30px
+}
+
+.productsfd232222df02a491 .blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #fff
+}
+
+.productsfd232222df02a491 .blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url('#goo')
+}
+
+.productsfd232222df02a491 .blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #33CCCC;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s
+}
+
+@supports (filter: url('#goo')) {
+    transform: translate3d(0, 150%, 0) scale(1.4)
+}
+
+.productsfd232222df02a491 .blob-btn__blob:nth-child(1) {
+    left: 0%;
+    transition-delay: 0s
+}
+
+.productsfd232222df02a491 .blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s
+}
+
+.productsfd232222df02a491 .blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s
+}
+
+.productsfd232222df02a491 .blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s
+}
+
+.productsfd232222df02a491 .blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7)
+}
+
+@supports (filter: url('#goo')) {
+    transform: translateZ(0) scale(1.4)
+}
+
+/* #pony(fd232222df02a491) #css ends  */
+/*****pony*****/
+
+/*****charold*****/
+    /* #charold(calltoactioncapzr97jkms) #css starts  */
+    .calltoactioncapzr97jkms .btn-secondary{
+        background-color: #FE6756;
+        border: #FE6756
+    }
+    .calltoactioncapzr97jkms .fdb-block {
+        padding: 7.5rem 0;
+        background-color: #FFFFFF
+         }
+    /* #charold(calltoactioncapzr97jkms) #css ends  */
+/*****charold*****/
+
+/*****tammy*****/ 
+/* #tammy(teamtmi4xt29bn1) #css starts */
+.teamtmi4xt29bn1 .fdb-block {
+    padding: 7.5rem 0
+    }
+/* #tammy(teamtmi4xt29bn1) #css ends */
+/*****tammy*****/
+
+/*****annu*****/
+    /* #annu(eb092de7c8df0610) #css starts  */
+    .abouteb092de7c8df0610 #AbOuTuS {
+        padding: 3rem;
+        font-weight: bold
+    }
+
+    .abouteb092de7c8df0610 #AbOuTuS .text-custom {
+        color: #0062ff
+    }
+
+    .abouteb092de7c8df0610 #AbOuTuS a {
+        text-decoration: none
+    }
+
+    .abouteb092de7c8df0610 #AbOuTuS .images {
+        max-height: 80px;
+        max-width: 80px
+    }
+
+    /* #annu(eb092de7c8df0610) #css ends  */
+/*****annu*****/
+
+/*****ted*****/
+    /* #ted(testimonialprqwl7a4x8r) #css starts  */
+    .testimonialprqwl7a4x8r .logo{
+        max-width: 50px
+    }
+    /* #ted(testimonialprqwl7a4x8r) #css ends  */
+/*****ted*****/
+
+/*****fanul*****/
+    /* #fanul(b6c9fcc0294384085) #css starts */
+    .footerb6c9fcc0294384085 a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s
+    }
+
+    .footerb6c9fcc0294384085 button {
+        background: none
+    }
+
+    .footerb6c9fcc0294384085 a:hover,
+    .footerb6c9fcc0294384085 a:focus {
+        color: white;
+        text-decoration: none
+    }
+
+    .footerb6c9fcc0294384085 .form-control {
+        background: white
+    }
+
+    .footerb6c9fcc0294384085 .form-control:focus {
+        background: #a5f0e2;
+        box-shadow: none;
+        color: black
+    }
+
+    .footerb6c9fcc0294384085 footer {
+        background: #0B9F85
+    }
+
+    .footerb6c9fcc0294384085 .mini-footer {
+        background: #192027;
+        text-align: center;
+        padding: 15px 0
+    }
+
+    .footerb6c9fcc0294384085 .mini-footer p {
+        margin: 0;
+        line-height: 26px;
+        font-size: 15px;
+        color: #999
+    }
+
+    .footerb6c9fcc0294384085 .mini-footer p a {
+        color: #5867dd
+    }
+
+    .footerb6c9fcc0294384085 .mini-footer p a:hover {
+        color: #34bfa3
+    }
+
+    /* #fanul(b6c9fcc0294384085) #css ends */
+/*****fanul*****/
