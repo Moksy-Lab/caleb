@@ -1,0 +1,30 @@
+{
+    "name": "caleb",
+    "description": "Caleb a modern e-learning static website template, leverages state-of-the-art technology and places a significant focus on aesthetics, resulting in an engaging and visually appealing platform for hosting educational materials. While it may lack certain interactive features, this template forms the basis for establishing an engaging learning environment that actively involves students and supports educational objectives.",
+    "short_name": "caleb",
+    "start_url": "https://moksy.com/templates/caleb",
+    "display": "standalone",
+    "background_color": "#f69435",
+    "theme_color": "#ff914f",
+    "orientation": "portrait",
+    "icons": [
+    {
+    "src": "./assets/img/logo.png",
+    "sizes": "36x36",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "./assets/img/logo.png",
+    "sizes": "48x48",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "./assets/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+    }
+    ]
+    }
