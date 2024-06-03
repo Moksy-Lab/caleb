@@ -53,6 +53,7 @@ background-color: var(--primary-Color);
 /* aboutcded716dce36a6e8 */
 .aboutcded716dce36a6e8{
     background-color: var(--primary-Color);
+    overflow: hidden;
 }
 .aboutcded716dce36a6e8 .bg-white {
     background-color: var(--primary-Color) !important;
